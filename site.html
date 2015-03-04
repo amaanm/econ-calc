@@ -1,0 +1,209 @@
+<div class="row">
+	<div class="col-sm-6">
+		<div class="well">
+			<h4>Single Payment</h4>
+			<hr />
+
+			<h5>(F/P, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="singlePaymentFutureData.P" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="singlePaymentFutureData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="singlePaymentFutureData.n" >
+				</div>
+				<div class="col-sm-4">
+					F
+					<input class="form-control" placeholder="F" ng-model="singlePaymentFutureData.F" >
+				</div>
+			</div>
+
+			<h5>(P/F, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					F
+					<input class="form-control" placeholder="F" ng-model="singlePaymentPresentData.F" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="singlePaymentPresentData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="singlePaymentPresentData.n" >
+				</div>
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="singlePaymentPresentData.P" >
+				</div>
+			</div>
+		</div>
+
+		<div class="well">
+			<h4>Uniform Series</h4>
+			<hr />
+
+			<h5>(F/A, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					A
+					<input class="form-control" placeholder="A" ng-model="uniformSeriesToFutureData.A" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="uniformSeriesToFutureData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="uniformSeriesToFutureData.n" >
+				</div>
+				<div class="col-sm-4">
+					F
+					<input class="form-control" placeholder="F" ng-model="uniformSeriesToFutureData.F" >
+				</div>
+			</div>
+
+			<h5>(A/F, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					F
+					<input class="form-control" placeholder="F" ng-model="uniformSeriesFromFutureData.F" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="uniformSeriesFromFutureData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="uniformSeriesFromFutureData.n" >
+				</div>
+				<div class="col-sm-4">
+					A
+					<input class="form-control" placeholder="A" ng-model="uniformSeriesFromFutureData.A" >
+				</div>
+			</div>
+
+			<h5>(A/P, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="uniformSeriesFromPresentData.P" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="uniformSeriesFromPresentData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="uniformSeriesFromPresentData.n" >
+				</div>
+				<div class="col-sm-4">
+					A
+					<input class="form-control" placeholder="A" ng-model="uniformSeriesFromPresentData.A" >
+				</div>
+			</div>
+
+			<h5>(P/A, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					A
+					<input class="form-control" placeholder="A" ng-model="uniformSeriesToPresentData.A" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="uniformSeriesToPresentData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="uniformSeriesToPresentData.n" >
+				</div>
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="uniformSeriesToPresentData.P" >
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-6">
+		<div class="well">
+			<h4>Arithmetic Gradient</h4>
+			<hr />
+
+			<h5>(A/G, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					G
+					<input class="form-control" placeholder="G" ng-model="arithmeticGradientUniformData.G" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="arithmeticGradientUniformData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="arithmeticGradientUniformData.n" >
+				</div>
+				<div class="col-sm-4">
+					A
+					<input class="form-control" placeholder="A" ng-model="arithmeticGradientUniformData.A" >
+				</div>
+			</div>
+
+			<h5>(P/G, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					G
+					<input class="form-control" placeholder="G" ng-model="arithmeticGradientPresentData.G" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="arithmeticGradientPresentData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="arithmeticGradientPresentData.n" >
+				</div>
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="arithmeticGradientPresentData.P" >
+				</div>
+			</div>
+		</div>
+
+		<div class="well">
+			<h4>Geometric Gradient</h4>
+			<hr />
+
+			<h5>(P/A, g, i, n)</h5>
+			<div class="row">
+				<div class="col-sm-2">
+					A
+					<input class="form-control" placeholder="A" ng-model="geometricGradientDifferentData.A" >
+				</div>
+				<div class="col-sm-2">
+					g
+					<input class="form-control" placeholder="g" ng-model="geometricGradientDifferentData.g" >
+				</div>
+				<div class="col-sm-2">
+					i
+					<input class="form-control" placeholder="i" ng-model="geometricGradientDifferentData.i" >
+				</div>
+				<div class="col-sm-2">
+					n
+					<input class="form-control" placeholder="n" ng-model="geometricGradientDifferentData.n" >
+				</div>
+				<div class="col-sm-4">
+					P
+					<input class="form-control" placeholder="P" ng-model="geometricGradientDifferentData.result" >
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
